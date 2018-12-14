@@ -1,0 +1,13 @@
+.container-home-text {
+    padding: 30px;
+    background-color:rgba(0,0,0,0.6);
+    border-radius: 10px;
+}
+
+.about-me-img{
+    border-radius: 20px;
+}
+
+body.ov-active .container-home-text {
+    background-color:rgba(0,0,0,0);
+}
