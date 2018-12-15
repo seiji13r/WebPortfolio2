@@ -2,12 +2,37 @@
     padding: 30px;
     background-color:rgba(0,0,0,0.6);
     border-radius: 10px;
+    width: 100%;
 }
 
 .about-me-img{
     border-radius: 20px;
 }
 
-body.ov-active .container-home-text {
-    background-color:rgba(0,0,0,0);
+.contact-links a {
+    display: block;
+    margin: 10px;
+    font-size: 48px;
+    line-height: 48px;
+    color: black !important; 
+}
+
+.contact-section {
+    height: 100vh
+}
+
+.contact-links {
+    /* padding-top: 40px; */
+    height: 50vh
+}
+
+@media screen and (min-width: 1024px){
+
+    .container-home-text {
+        width: 70%;
+    }
+
+    body.ov-active .container-home-text {
+        background-color:rgba(0,0,0,0);
+    }
 }
