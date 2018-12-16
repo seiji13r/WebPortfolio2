@@ -26,6 +26,12 @@
     height: 50vh
 }
 
+.portfolio-link {
+    font-size: 2em;
+    display: inline-block;
+    /* color: black !important;  */
+}
+
 @media screen and (min-width: 1024px){
 
     .container-home-text {
